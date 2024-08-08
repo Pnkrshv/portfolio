@@ -104,3 +104,9 @@ body{
 	width: calc(var(--index) * 5);
 	padding: 0 calc(var(--index) * 1);
 }
+
+@media(max-width: 600px){
+	.main__container{
+		flex-direction: column;
+	}
+}
